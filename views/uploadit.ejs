@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="/img/donateicon.jpg" rel="icon">
+    <link href="/img/donateicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -169,22 +169,6 @@
     <script src="js/main.js"></script>
 
 
-    <script>
-        // Get latitude and longitude
-        if ("geolocation" in navigator) {
-            navigator.geolocation.getCurrentPosition(function (position) {
-                const latitude = position.coords.latitude;
-                const longitude = position.coords.longitude;
-
-                // Set the values in the hidden input field
-                document.getElementById("latitude").value = latitude;
-                document.getElementById("longitude").value = longitude;
-            });
-        }
-    </script>
-
-    <!-- Footer (You can include a footer section if needed) -->
-    <!-- ... -->
 
 </body>
 </html>
